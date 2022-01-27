@@ -1,0 +1,11 @@
+#anuncio {
+position: absolute;
+border: 0px;
+padding: 2px;
+width: 300px;
+height: 250px;
+visibility: hidden;
+z-index: 200;
+top: 27px;
+left: 13px;
+}
