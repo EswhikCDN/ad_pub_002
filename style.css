@@ -1,33 +1,11 @@
-#btftopbar {
-height:0px;
-width:auto;
-background: #transparent url('..');
-background-repeat:repeat-x;
-text-align:left;
-padding-top:200px;
+#anuncio {
+position: absolute;
+border: 0px;
+padding: 2px;
+width: 300px;
+height: 250px;
+visibility: hidden;
+z-index: 200;
+top: 27px;
+left: 13px;
 }
-#adsground {
-height:280;       <!--Set the height of your ads  -->
-margin:0 auto;
-width: 336px;   <!--Set the width of your ads  -->
-background:#transparent ;
-border-bottom:0px #transparent solid;
-border-right:0px #transparent solid;
-border-left:0px #transparent solid;
-text-align:center;
-margin-top: auto;
-padding:0px;
-}
-#headline0 {
-opacity:1.0;
-height:auto;
-width:auto;
-position:fixed;
-top:20px;   <!--Set the top margin location of your ads  -->
-left:0px;    <!--Set the left margin location of your ads  -->
-border-bottom:0px #transparent solid;
-border-bottom:0px transparent solid;
-color:#333;
-padding:0px;
-z-index:1001;
-font-size:13px;}
